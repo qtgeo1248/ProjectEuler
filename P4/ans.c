@@ -21,7 +21,6 @@ bool is_palin(size_t i, size_t num_digits) {
 }
 
 int main() {
-    bool isDone = false;
     size_t max_palin = 0;
     for (size_t i = 100; i < 1000; i++)
         for (size_t j = i; j < 1000; j++)
