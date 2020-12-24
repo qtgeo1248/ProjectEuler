@@ -24,6 +24,7 @@ int main() {
             maxp = i;
     }
     printf("Answer: %zu\n", maxp);
+    free(primes);
     fclose(f); free(line);
     return 0;
 }

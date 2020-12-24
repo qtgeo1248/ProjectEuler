@@ -22,5 +22,7 @@ int main() {
     for (size_t i = 1; i <= max; i++)
         lcm *= i / gcd(i, lcm);
     printf("Answer: %zu\n", lcm);
+    free(line);
+    fclose(f);
     return 0;
 }

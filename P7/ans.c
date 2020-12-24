@@ -24,5 +24,8 @@ int main() {
         }
     }
     printf("Answer: %zu\n", primes[max - 1]);
+    free(primes);
+    free(line);
+    fclose(f);
     return 0;
 }
